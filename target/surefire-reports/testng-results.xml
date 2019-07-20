@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium_Automation" duration-ms="9080" started-at="2019-07-07T11:47:14Z" finished-at="2019-07-07T11:47:23Z">
+    <groups>
+      <group name="init">
+        <method signature="Login.searchFunctionality()[pri:1, instance:testNg.Login@7a79be86]" name="searchFunctionality" class="testNg.Login"/>
+      </group> <!-- init -->
+      <group name="regression">
+        <method signature="Login.cartverification()[pri:2, instance:testNg.Login@7a79be86]" name="cartverification" class="testNg.Login"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Login.cartverification()[pri:2, instance:testNg.Login@7a79be86]" name="cartverification" class="testNg.Login"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Login" duration-ms="9080" started-at="2019-07-07T11:47:14Z" finished-at="2019-07-07T11:47:23Z">
+      <class name="testNg.Login">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:testNg.Login@7a79be86]" name="beforeSuite" is-config="true" duration-ms="3484" started-at="2019-07-07T17:17:10Z" finished-at="2019-07-07T17:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNg.Login@7a79be86]" name="beforeTest" is-config="true" duration-ms="1735" started-at="2019-07-07T17:17:14Z" finished-at="2019-07-07T17:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchFunctionality()[pri:1, instance:testNg.Login@7a79be86]" name="searchFunctionality" duration-ms="1976" started-at="2019-07-07T17:17:15Z" finished-at="2019-07-07T17:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method status="PASS" signature="cartverification()[pri:2, instance:testNg.Login@7a79be86]" name="cartverification" duration-ms="5359" started-at="2019-07-07T17:17:17Z" finished-at="2019-07-07T17:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartverification -->
+      </class> <!-- testNg.Login -->
+    </test> <!-- Login -->
+  </suite> <!-- Selenium_Automation -->
+</testng-results>
